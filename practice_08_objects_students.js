@@ -33,6 +33,7 @@ const movie = {
   director: "Christopher Nolan",
   rating: "PG-13",
   runtime: 169,
+  Watched:"Interstellar"
 };
 
 // TODO 1: Print the movie title
@@ -45,10 +46,17 @@ console.log(movie.director)
 
 // TODO 3: Print true/false — is runtime over 120?
 // console.log(...)
-console.log(movie.runtine)
+if (console.log(movie.runtine >120)){
+  console.log;{True}
+}
 
 // TODO 4: Add a `watched` property set to true
 // movie.??? = ???
+let Watched= movie.title
+if (movie.title = Watched){
+  console.log(true)
+}
+  
 
 // TODO 5: Print each key-value pair
 // console.log("Title:", ...)
@@ -57,7 +65,12 @@ console.log(movie.runtine)
 // console.log("Rating:", ...)
 // console.log("Runtime:", ...)
 // console.log("Watched:", ...)
-
+console.log(movie.title)
+console.log(movie.year)
+console.log(movie.director)
+console.log(movie.rating)
+console.log(movie.runtime)
+console.log(movie.Watched)
 // =================================================================
 // PROBLEM 2 — Build Your Own Object
 // =================================================================
@@ -71,6 +84,13 @@ console.log(movie.runtine)
 
 function createStudent(name, grade, gpa) {
   // TODO: return an object with name, grade, gpa, and isHonors
+  const createStudent =[
+    {name:"Alex" ,grade:"11"}
+  ]
+
+  
+  
+
 }
 
 // Test your function — uncomment when ready:
