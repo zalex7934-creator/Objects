@@ -84,19 +84,23 @@ console.log(movie.Watched)
 
 function createStudent(name, grade, gpa) {
   // TODO: return an object with name, grade, gpa, and isHonors
-  const createStudent =[
-    {name:"Alex" ,grade:"11"}
-  ]
+  return{
+name:name,
+grade:grade,
+gpa:gpa,
+isHonors: gpa >= 3.5
 
-  
+
+  };
+
   
 
 }
 
 // Test your function — uncomment when ready:
-// console.log("\n--- Problem 2 ---");
-// console.log(createStudent("Alex", 11, 3.7));
-// console.log(createStudent("Sam", 10, 2.9));
+console.log("\n--- Problem 2 ---");
+console.log(createStudent("Alex", 11, 3.7));
+ console.log(createStudent("Sam", 10, 2.9));
 
 // =================================================================
 // PROBLEM 3 — Searching an Array of Objects
