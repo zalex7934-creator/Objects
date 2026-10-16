@@ -116,9 +116,8 @@ console.log(createStudent("Alex", 11, 3.7));
 function findByName(students, targetName) {
   // TODO: use .find() to search by name
   // Hint: .find() returns undefined if nothing matches — convert that to null using || (or) operator
-  students.find(targetName)
-  || null
-  
+  const found = students.find((student) => student.name === targetName ) || null
+  return found
   
 
 }
@@ -145,11 +144,11 @@ console.log("\n--- Problem 3 ---");
 function printRoster(students) {
   // TODO: loop through students with .forEach()
   // TODO: print each student in the format above
+  students.forEach((students)=> 
 }
-
 // Test your function — uncomment when ready:
-// console.log("\n--- Problem 4 ---");
-// printRoster(students);
+ console.log("\n--- Problem 4 ---");
+ printRoster(students);
 
 // =================================================================
 // PROBLEM 5 — Object Inspector
